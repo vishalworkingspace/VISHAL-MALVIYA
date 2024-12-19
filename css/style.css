@@ -8339,7 +8339,7 @@ h1, h2, h3, h4, h5,
         margin-left: 0 !important; } }
     .ftco-navbar-light.scrolled .navbar-toggler {
       border: none;
-      color: rgba(0, 0, 0, 0.5) !important;
+      color: #fff !important;
       border-color: rgba(0, 0, 0, 0.5) !important;
       cursor: pointer;
       text-transform: uppercase;
@@ -9725,3 +9725,20 @@ textarea.form-control {
       background-color: #ffbd39;
       color: #fff;
   }
+
+  @media (max-width: 768px) {
+    a.btn.btn-primary.py-3.px-4 {
+        font-size: 9px !important;
+    }
+
+    .video-bg video {
+      display: none;
+    }
+    .owl-carousel.home-slider .slider-item .slider-text .one-forth {
+      height: 600px !important;
+  }
+  .about-info .d-flex {
+    flex-direction: column !important;
+  }
+
+}
