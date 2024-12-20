@@ -1,0 +1,43 @@
+/* Mobile scrolling fixes */
+html, body {
+    height: auto !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+.hero {
+    position: relative !important;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.home-slider {
+    height: 100vh !important;
+    overflow: hidden;
+    touch-action: pan-y pinch-zoom;
+}
+
+.home-slider .slider-item {
+    height: 100vh !important;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .hero {
+        height: auto !important;
+    }
+    
+    .home-slider, .home-slider .slider-item {
+        height: 100vh !important;
+        min-height: 600px;
+    }
+    
+    .one-third.js-fullheight {
+        height: 100% !important;
+    }
+    
+    .one-forth {
+        padding-top: 5em;
+        padding-bottom: 2em;
+    }
+}
