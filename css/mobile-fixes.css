@@ -30,7 +30,6 @@ html, body {
     .home-slider, .home-slider .slider-item {
         height: 80vh !important;
         min-height: 400px;
-        z-index: -99 !important;
     }
     
     .one-third.js-fullheight {
