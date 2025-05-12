@@ -26,10 +26,11 @@ html, body {
     .hero {
         height: auto !important;
     }
-    
+
     .home-slider, .home-slider .slider-item {
-        height: 100vh !important;
-        min-height: 600px;
+        height: 50vh !important;
+        min-height: 400px;
+        z-index: -99 !important;
     }
     
     .one-third.js-fullheight {
